@@ -72,7 +72,7 @@ export default function LandingPage() {
               id: "1",
               name: "Signature Espresso",
               price: "$3.50",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765915787387-5p0aogqw.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765918460167-2sch9q6w.jpg",
               imageAlt: "Rich espresso shot with crema"
             },
             {
