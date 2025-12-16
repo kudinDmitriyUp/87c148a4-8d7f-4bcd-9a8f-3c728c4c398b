@@ -6,10 +6,7 @@ import HeroShowcaseSplitOverlay from '@/components/sections/hero/HeroShowcaseSpl
 import TagAbout from '@/components/sections/about/TagAbout';
 import ProductCardSeven from '@/components/sections/product/ProductCardSeven';
 import TestimonialCardEight from '@/components/sections/testimonial/TestimonialCardEight';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
-import ContactFaq from '@/components/sections/contact/ContactFaq';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { MapPin } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -31,8 +28,7 @@ export default function LandingPage() {
             { name: "Home", id: "hero" },
             { name: "About", id: "about" },
             { name: "Menu", id: "products" },
-            { name: "Reviews", id: "testimonials" },
-            { name: "Contact", id: "contact" }
+            { name: "Reviews", id: "testimonials" }
           ]}
           button={{ text: "Order Now", href: "contact" }}
           brandName="Brew Haven"
@@ -166,71 +162,6 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="faq" data-section="faq">
-        <FaqSplitText
-          sideTitle="Frequently Asked Questions"
-          sideDescription="Everything you need to know about visiting Brew Haven"
-          faqs={[
-            {
-              id: "1",
-              title: "What are your operating hours?",
-              content: "We are open Monday through Friday from 6:00 AM to 8:00 PM, Saturday 7:00 AM to 9:00 PM, and Sunday 8:00 AM to 7:00 PM. We are closed on major holidays."
-            },
-            {
-              id: "2",
-              title: "Do you offer WiFi for customers?",
-              content: "Yes! We provide free high-speed WiFi for all our customers. Our space is perfect for working, studying, or just relaxing with a good cup of coffee."
-            },
-            {
-              id: "3",
-              title: "Can I order ahead online?",
-              content: "Currently, we accept orders in-person and by phone. Call us at (555) 123-4567 to place an order for pickup. We're working on adding online ordering soon!"
-            },
-            {
-              id: "4",
-              title: "Do you have gluten-free options?",
-              content: "Yes! We offer several gluten-free pastries and beverages. Our baristas are trained to handle dietary requirements. Please let us know your needs when ordering."
-            },
-            {
-              id: "5",
-              title: "What payment methods do you accept?",
-              content: "We accept cash, credit cards, debit cards, and mobile payment apps like Apple Pay and Google Pay for your convenience."
-            }
-          ]}
-          textPosition="left"
-          useInvertedBackground="noInvert"
-          animationType="smooth"
-        />
-      </div>
-
-      <div id="contact" data-section="contact">
-        <ContactFaq
-          ctaTitle="Visit Brew Haven"
-          ctaDescription="Stop by today and experience the warmth of our community. We're always happy to welcome new friends."
-          ctaButton={{ text: "Get Directions", href: "https://maps.google.com" }}
-          ctaIcon={MapPin}
-          faqs={[
-            {
-              id: "1",
-              title: "Where are you located?",
-              content: "123 Main Street, Downtown District. Easy street parking available. We're located between the library and the community center."
-            },
-            {
-              id: "2",
-              title: "How can I contact you?",
-              content: "Phone: (555) 123-4567 | Email: hello@brewhaven.local | Hours: Mon-Fri 6AM-8PM, Sat 7AM-9PM, Sun 8AM-7PM"
-            },
-            {
-              id: "3",
-              title: "Do you host events?",
-              content: "Yes! We love hosting community events, local artist showcases, and live music nights. Contact us for more information about hosting your event."
-            }
-          ]}
-          useInvertedBackground="noInvert"
-          animationType="slide-up"
-        />
-      </div>
-
       <div id="footer" data-section="footer">
         <FooterLogoEmphasis
           columns={[
@@ -243,8 +174,7 @@ export default function LandingPage() {
             },
             {
               items: [
-                { label: "Contact", href: "contact" },
-                { label: "Hours", href: "#faq" },
+                { label: "Contact", href: "#contact" },
                 { label: "Reviews", href: "testimonials" }
               ]
             },
