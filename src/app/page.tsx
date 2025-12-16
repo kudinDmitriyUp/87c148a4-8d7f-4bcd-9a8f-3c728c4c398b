@@ -7,6 +7,7 @@ import TagAbout from '@/components/sections/about/TagAbout';
 import ProductCardSeven from '@/components/sections/product/ProductCardSeven';
 import TestimonialCardEight from '@/components/sections/testimonial/TestimonialCardEight';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 
 export default function LandingPage() {
   return (
@@ -162,6 +163,24 @@ export default function LandingPage() {
         />
       </div>
 
+      <div id="contact" data-section="contact">
+        <ContactSplitForm
+          title="Get in Touch"
+          description="We'd love to hear from you. Drop us a message and we'll get back to you as soon as possible."
+          inputs={[
+            { name: "name", type: "text", placeholder: "Your Name", required: true },
+            { name: "email", type: "email", placeholder: "Your Email", required: true }
+          ]}
+          textarea={{ name: "message", placeholder: "Tell us what you'd like to know...", rows: 5, required: true }}
+          useInvertedBackground="noInvert"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765916824429-0pxxzdns.jpg"
+          imageAlt="Brew Haven Coffee Shop"
+          mediaPosition="right"
+          buttonText="Send Message"
+          onSubmit={(data) => console.log('Contact form submitted:', data)}
+        />
+      </div>
+
       <div id="footer" data-section="footer">
         <FooterLogoEmphasis
           columns={[
@@ -174,7 +193,7 @@ export default function LandingPage() {
             },
             {
               items: [
-                { label: "Contact", href: "#contact" },
+                { label: "Contact", href: "contact" },
                 { label: "Reviews", href: "testimonials" }
               ]
             },
