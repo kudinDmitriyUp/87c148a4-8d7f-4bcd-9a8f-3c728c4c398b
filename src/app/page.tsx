@@ -89,7 +89,7 @@ export default function LandingPage() {
               id: "3",
               name: "Butter Croissant",
               price: "$4.25",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765915787986-6foy8zqt.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765916395877-9kequi57.jpg",
               imageAlt: "Fresh flaky croissant"
             }
           ]}
