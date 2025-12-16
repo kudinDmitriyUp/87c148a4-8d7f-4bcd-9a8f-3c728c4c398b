@@ -173,7 +173,7 @@ export default function LandingPage() {
           ]}
           textarea={{ name: "message", placeholder: "Tell us what you'd like to know...", rows: 5, required: true }}
           useInvertedBackground="noInvert"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765916824429-0pxxzdns.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765917303210-h9ynol0c.jpg"
           imageAlt="Brew Haven Coffee Shop"
           mediaPosition="right"
           buttonText="Send Message"
