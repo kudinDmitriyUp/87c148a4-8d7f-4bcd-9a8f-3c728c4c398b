@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -47,7 +47,8 @@ export default function LandingPage() {
           tags={["Specialty Coffee", "Local Roastery", "Craft Beverages", "Community Space"]}
           buttons={[
             { text: "View Menu", href: "products" },
-            { text: "Visit Us Today", href: "contact" }
+            { text: "Visit Us Today", href: "contact" },
+            { text: "Learn More", href: "about" }
           ]}
           showcaseImageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765915786499-yponps2k.jpg"
           showcaseImageAlt="Cozy coffee shop interior with warm lighting"
