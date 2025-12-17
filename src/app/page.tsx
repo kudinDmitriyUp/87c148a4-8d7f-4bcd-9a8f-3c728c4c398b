@@ -9,6 +9,8 @@ import TestimonialCardEight from '@/components/sections/testimonial/TestimonialC
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import BlogCardTwo from '@/components/sections/blog/BlogCardTwo';
+import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
+import { HelpCircle } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -215,6 +217,48 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground="noInvert"
           carouselMode="buttons"
+        />
+      </div>
+
+      <div id="faq" data-section="faq">
+        <FaqSplitMedia
+          title="Frequently Asked Questions"
+          description="Find answers to common questions about Brew Haven and our offerings"
+          tag="Help & Support"
+          tagIcon={HelpCircle}
+          faqs={[
+            {
+              id: "1",
+              title: "What are your operating hours?",
+              content: "We're open Monday to Friday from 6:00 AM to 6:00 PM, Saturday from 7:00 AM to 5:00 PM, and Sunday from 8:00 AM to 4:00 PM. We're closed on major holidays."
+            },
+            {
+              id: "2",
+              title: "Do you offer WiFi?",
+              content: "Yes! We offer free high-speed WiFi to all our customers. Just ask for the WiFi password at the counter. It's a great spot for working, studying, or catching up with friends."
+            },
+            {
+              id: "3",
+              title: "Can I order online or book a table?",
+              content: "Currently, we accept orders in-person. However, you can call us at (555) 123-4567 to place a phone order for pickup. Tables are first-come, first-served, but we always try to accommodate groups when possible."
+            },
+            {
+              id: "4",
+              title: "What payment methods do you accept?",
+              content: "We accept cash, all major credit cards (Visa, Mastercard, American Express), and mobile payments (Apple Pay, Google Pay). We also offer a loyalty card for frequent visitors!"
+            },
+            {
+              id: "5",
+              title: "Do you have options for dietary restrictions?",
+              content: "Absolutely! We offer oat, almond, and coconut milk alternatives, and all our pastries are labeled with common allergen information. Our baristas are happy to help you find the perfect drink for your dietary needs."
+            }
+          ]}
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765973792801-8rjle439.jpg"
+          imageAlt="Brew Haven Coffee Shop FAQ"
+          textboxLayout="default"
+          useInvertedBackground="noInvert"
+          mediaPosition="left"
+          animationType="smooth"
         />
       </div>
 
