@@ -48,9 +48,9 @@ export default function LandingPage() {
             { text: "Visit Us Today", href: "contact" },
             { text: "Learn More", href: "about" }
           ]}
-          showcaseImageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765916824429-0pxxzdns.jpg"
+          showcaseImageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765973763059-qzu02mq4.jpg"
           showcaseImageAlt="Cozy coffee shop interior with warm lighting"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765916824429-0pxxzdns.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765973763059-qzu02mq4.jpg"
           imageAlt="Coffee shop counter with barista"
           showDimOverlay={false}
         />
