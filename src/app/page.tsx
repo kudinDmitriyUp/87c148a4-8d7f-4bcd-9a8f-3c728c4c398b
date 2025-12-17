@@ -19,7 +19,7 @@ export default function LandingPage() {
       contentWidth="medium"
       sizing="large"
       background="noiseGradient"
-      cardStyle="gradient-subtle"
+      cardStyle="glass-outline"
       primaryButtonStyle="flat"
       secondaryButtonStyle="minimal"
       headingFontWeight="extrabold"
