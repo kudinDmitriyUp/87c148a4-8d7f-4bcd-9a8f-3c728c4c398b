@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import HeroShowcaseSplitOverlay from '@/components/sections/hero/HeroShowcaseSplitOverlay';
 import TagAbout from '@/components/sections/about/TagAbout';
+import AboutPhoneTimeline from '@/components/sections/about/AboutPhoneTimeline';
 import ProductCardSeven from '@/components/sections/product/ProductCardSeven';
 import TestimonialCardEight from '@/components/sections/testimonial/TestimonialCardEight';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
@@ -62,6 +63,28 @@ export default function LandingPage() {
         <TagAbout
           tag="Our Story"
           description="Founded by local coffee enthusiasts, Brew Haven started as a passion for bringing exceptional coffee experiences to our community. We source beans from sustainable farms around the world, roast them with care, and serve them with genuine hospitality. Every cup tells a story of craftsmanship and dedication."
+          useInvertedBackground="noInvert"
+        />
+      </div>
+
+      <div id="about-phone-timeline" data-section="about-phone-timeline">
+        <AboutPhoneTimeline
+          tag="Our Mission"
+          title="Experience Coffee Crafted for You"
+          description="Discover how our mobile app brings the Brew Haven experience to your fingertips. Order ahead, track your delivery, and join our loyalty program—all in one seamless platform."
+          phoneOne={{
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765918460167-2sch9q6w.jpg",
+            imageAlt: "Brew Haven App - Menu Screen"
+          }}
+          phoneTwo={{
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765915788796-xbashtxq.jpg",
+            imageAlt: "Brew Haven App - Order Tracking"
+          }}
+          textboxLayout="default"
+          buttons={[
+            { text: "Download App", href: "https://example.com" },
+            { text: "Learn More", href: "about" }
+          ]}
           useInvertedBackground="noInvert"
         />
       </div>
