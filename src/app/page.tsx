@@ -9,7 +9,6 @@ import ProductCardSeven from '@/components/sections/product/ProductCardSeven';
 import TestimonialCardEight from '@/components/sections/testimonial/TestimonialCardEight';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import BlogCardTwo from '@/components/sections/blog/BlogCardTwo';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import { HelpCircle } from 'lucide-react';
 
@@ -186,60 +185,6 @@ export default function LandingPage() {
           ]}
           textboxLayout="default"
           useInvertedBackground="noInvert"
-        />
-      </div>
-
-      <div id="blog" data-section="blog">
-        <BlogCardTwo
-          title="Coffee Stories & Updates"
-          description="Explore our latest articles about our brand and new coffee releases"
-          blogs={[
-            {
-              id: "1",
-              tags: ["Brand", "Coffee", "Local"],
-              title: "The Story Behind Brew Haven",
-              excerpt: "Discover how our passion for exceptional coffee led to creating a community hub for coffee lovers",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765916824429-0pxxzdns.jpg",
-              imageAlt: "Brew Haven Coffee Shop",
-              authorName: "Brew Haven Team",
-              date: "15 Jan 2025"
-            },
-            {
-              id: "2",
-              tags: ["New Release", "Coffee", "Roastery"],
-              title: "Introducing Our New Single-Origin Blend",
-              excerpt: "We're excited to release our latest single-origin Ethiopian coffee with rich, complex notes",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765918460167-2sch9q6w.jpg",
-              imageAlt: "New Coffee Blend",
-              authorName: "Brew Haven Team",
-              date: "10 Jan 2025"
-            },
-            {
-              id: "3",
-              tags: ["Coffee", "Tips", "Brewing"],
-              title: "How to Brew the Perfect Cup at Home",
-              excerpt: "Learn the secrets our baristas use to brew exceptional coffee in your own kitchen",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765915788796-xbashtxq.jpg",
-              imageAlt: "Coffee Brewing Guide",
-              authorName: "Brew Haven Team",
-              date: "5 Jan 2025"
-            },
-            {
-              id: "4",
-              tags: ["Sustainability", "Coffee", "Community"],
-              title: "Our Commitment to Sustainable Coffee",
-              excerpt: "Supporting fair-trade farmers and eco-friendly practices in every bean we source",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1765916395877-9kequi57.jpg",
-              imageAlt: "Sustainable Farming",
-              authorName: "Brew Haven Team",
-              date: "1 Jan 2025"
-            }
-          ]}
-          animationType="slide-up"
-          containerStyle="default"
-          textboxLayout="default"
-          useInvertedBackground="noInvert"
-          carouselMode="buttons"
         />
       </div>
 
